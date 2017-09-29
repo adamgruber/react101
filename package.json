@@ -1,0 +1,24 @@
+{
+  "name": "react101",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-markdown": "^2.5.0",
+    "react-typing-animation": "^1.1.5",
+    "react-typist": "^1.1.1",
+    "react-typist-loop": "0.0.3",
+    "spectacle-code-slide": "^0.4.0",
+    "spectacle-scripts": "1.0.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1"
+  }
+}

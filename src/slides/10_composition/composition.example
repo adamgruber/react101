@@ -1,0 +1,46 @@
+const Avatar = (props) => (
+  <img src={props.url} />
+);
+
+const LifeStatus = (props) => (
+  <span role="img">
+    {props.deceased ? '💀' : '😀'}
+  </span>
+);
+
+const CrewMember = (props) => (
+  <div className="crew-member">
+    <Avatar url={props.avatar} />
+    <p>{props.name}</p>
+    <LifeStatus deceased={props.deceased} />
+  </div>
+);
+
+const CrewList = (props) => (
+  <div className="crew-list">
+    <header>
+      <span>Crew Member</span>
+      <span>Status</span>
+    </header>
+    {props.children}
+  </div>
+);
+
+render(
+  <div>
+    <h5>Crew Tracker</h5>
+    <CrewList>
+      <CrewMember
+        name="Leela"
+        avatar="assets/crew/leela.png" />
+      <CrewMember
+        name="Fry"
+        avatar="/assets/crew/fry.png" />
+      <CrewMember
+        name="Zoidberg"
+        avatar="/assets/crew/zoidberg.png"
+        deceased />
+    </CrewList>
+  </div>,
+  mountNode
+);

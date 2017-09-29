@@ -1,0 +1,1 @@
+Back when Facebook began migrating their apps to JS, an employee named Adam Hupp implemented an XHP-like concept for JS.

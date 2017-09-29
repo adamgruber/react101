@@ -1,0 +1,5 @@
+$str = '<ul>';
+foreach ($talks as $talk) {
+  $str += '<li>' . $talk->name . '</li>';
+}
+$str += '</ul>';

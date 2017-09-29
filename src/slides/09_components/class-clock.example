@@ -1,0 +1,39 @@
+class TickTock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {date: new Date()};
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    this.setState({
+      date: new Date()
+    });
+  }
+
+  render() {
+    const {date} = this.state;
+    const now = date.toLocaleTimeString();
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>The time is now {now}.</h2>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <TickTock />,
+  document.getElementById('root')
+);

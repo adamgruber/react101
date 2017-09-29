@@ -1,0 +1,8 @@
+function :example:hello(attrib, children) {
+  return (
+    <div class="special">
+      <h1>Hello, World!</h1>
+      {children}
+    </div>
+  );
+}

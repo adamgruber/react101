@@ -1,0 +1,1 @@
+Let's talk about Components. They're the blocks we use to build out our app. Like Lego bricks they can be combined in different ways (or composed) to create larger components.

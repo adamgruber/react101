@@ -1,0 +1,8 @@
+function jsx_example_hello(attrib, children) {
+  return (
+    S.create("div", {"class": "special"}, [
+      S.create("h1", {}, ["Hello, World!"]),
+      children
+    ]
+  );
+}
