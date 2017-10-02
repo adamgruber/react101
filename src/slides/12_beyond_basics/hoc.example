@@ -1,0 +1,15 @@
+function logProps(WrappedComponent) {
+  return class extends React.Component {
+
+    componentWillReceiveProps(nextProps) {
+      console.log(`Next props: ${nextProps}`);
+    }
+
+    render() {
+      return (
+        <WrappedComponent {...this.props} />;
+      )
+    }
+  }
+}
+

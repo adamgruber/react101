@@ -13,6 +13,8 @@
 /* Presenter Notes Hack */
 .haajbE {
   white-space: pre-line;
+  z-index: 10;
+  background: #000;
 }
 .haajbE p {
   font-size: 18px;

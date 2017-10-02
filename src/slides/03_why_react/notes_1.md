@@ -1,28 +1,37 @@
-Why should we use it?
+### Why Use React?
 
-Speed
-- Updating and manipulating the DOM is slow.
-- React makes updates fast by only changing what needs to be changed
+### => Speed
+- DOM is slow
 
-Reuse
-- Promotes reusable components that can be shared across projects
-- Use composition to piece together components into larger views
+- React changes only what needs to be changed
 
-Flux
-- If you're unfamiliar, its an architecture built around the idea of unidirectional data flow
-- Unidirectional data flow leads to predictability in your app
-- Don't need to use Flux to use React but they go really well together
+### => Reuse
+- Components can be shared across projects
 
-Learning
-- React has a gradual learning curve
-- Easy to start and build on your knowledge as you go
+- Use composition to assemble larger views
 
-Tooling
-- Lots of great tools for debugging (React dev tools)
-- Works really well with modern build tools like webpack
-- create-react-app makes setting up a project really easy
+### => Flux
+- Architecture built on idea of unidirectional data flow
 
-Community
-- React has a large and very active community
-- Tons of great information out there
-- Lots of good conferences and talks
+- Predictability
+
+- Don't need to use Flux but React works really well with it
+
+### => Learning
+- Gradual learning curve
+
+- Build on knowledge as you go
+
+### => Tooling
+- Debugging (React dev tools)
+
+- Modern JS build tools (webpack)
+
+- CLIs for bootstrapping (create-react-app)
+
+### => Community
+- Large, very active
+
+- Conferences, talks
+
+- Tons of great information
