@@ -2,8 +2,10 @@
   "name": "react101",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adamgruber.github.io/react101",
   "dependencies": {
     "common-styled-components": "adamgruber/common-styled-components",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-markdown": "^2.5.0",
@@ -14,6 +16,8 @@
     "spectacle-scripts": "adamgruber/spectacle-scripts#raw-loader"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
