@@ -15,7 +15,7 @@ import notes2 from './notes_2.md';
 import hoc from './hoc.example';
 
 export default [
-  <Slide {...slideProps} transition={['slide']}>
+  <Slide {...slideProps} transition={['slide']} align="center center">
     { notes.one }
     <FlexContainer direction="column" fullHeight>
       <SlideTitle>Beyond the Basics</SlideTitle>

@@ -42,7 +42,24 @@ export default [
     </FlexContainer>
   </Slide>,
 
-  <Slide {...slideProps} transition={['spin']}>
+  <Slide {...slideProps} transition={['fade']}>
+    {notes.two}
+    <FlexContainer direction="column" fullHeight>
+      <SlideTitle size={5}>&nbsp;</SlideTitle>
+      <div style={{flex:1, position:'relative'}}>
+        <Image src={images.zuck} style={{...imgStyle}} />
+      </div>
+    </FlexContainer>
+  </Slide>,
+
+  <Slide {...slideProps} transition={['slide']} align="center center">
+    {notes.two}
+    <FlexContainer direction="column" fullHeight>
+      <CodePane lang="php" source={ phpCode } textSize={24} margin="2rem 0" />
+    </FlexContainer>
+  </Slide>,
+
+  <Slide {...slideProps} transition={['slide']}>
     {notes.three}
     <FlexContainer direction="column" fullHeight>
       <SlideTitle margin="100px 0 50px 0" textFont="primary" size={5}>XSS Injection</SlideTitle>

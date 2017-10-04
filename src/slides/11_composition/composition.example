@@ -27,7 +27,7 @@ const CrewList = (props) => (
 );
 
 render(
-  <div>
+  <div className="crew-tracker">
     <h5>Crew Tracker</h5>
     <CrewList>
       <CrewMember

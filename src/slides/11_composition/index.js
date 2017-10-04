@@ -60,7 +60,7 @@ export default [
       { loc: [31, 43] },
     ]} />,
 
-  <Slide {...slideProps} transition={['slide']} bgColor="bcGrey600" align="center center">
+  <Slide {...slideProps} maxWidth="80%" transition={['slide']} bgColor="bcGrey600" align="center center">
     {notes.four}
     <ComponentPlayground code={crewlist} />
   </Slide>

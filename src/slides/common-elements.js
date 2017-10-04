@@ -59,6 +59,7 @@ export const images = {
   renderTreeDirty: 'assets/renderTreeDirty.svg',
   renderTreeResolved: 'assets/renderTreeResolved.svg',
   xhpLogo: 'assets/xhp_logo.png',
+  zuck: 'assets/f-zuck.jpg',
 };
 
 export const imgStyle = {
