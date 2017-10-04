@@ -35,10 +35,10 @@ render(
         avatar="assets/crew/leela.png" />
       <CrewMember
         name="Fry"
-        avatar="/assets/crew/fry.png" />
+        avatar="assets/crew/fry.png" />
       <CrewMember
         name="Zoidberg"
-        avatar="/assets/crew/zoidberg.png"
+        avatar="assets/crew/zoidberg.png"
         deceased />
     </CrewList>
   </div>,
