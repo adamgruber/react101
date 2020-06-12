@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>React101: Hello World</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="./demo.css">
+  </head>
+  <body>
+    <!-- This root node will be replaced by React -->
+    <div id="root"></div>
+
+    <!-- Load React / ReactDOM -->
+    <script src="https://unpkg.com/react@15.6.1/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.min.js"></script> 
+    
+    <!-- Render element -->
+    <script>
+      ReactDOM.render(
+        React.createElement(
+          'h1', null, 'Hello, world! (React v' + React.version + ')'
+        ),
+        document.getElementById('root')
+      )
+    </script>
+
+  </body>
+</html>
